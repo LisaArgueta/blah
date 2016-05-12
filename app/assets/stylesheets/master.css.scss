@@ -30,10 +30,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .pagination {
-  font-family: 'fira_sanslight', sans-serif;
-  .previous_page {  }
-  .previous_page.disabled { color: #777 }
-  .current { font-weight: bold; }
-  .next_page {  }
-  .next_page.disabled { color: #777 }
+  font-family: 'fira_sansregular', sans-serif;
+  .previous_page { color: #b22222 }
+  .previous_page.disabled { color: #b22222 }
+  .current { font-weight: bold; color: #b22222 }
+  .next_page { color: #b22222 }
+  .next_page.disabled { color: #b22222 }
 }
