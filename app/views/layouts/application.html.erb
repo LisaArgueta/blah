@@ -34,7 +34,12 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<% will_paginate @places %>
+
 <%= yield %>
+
+<% will_paginate @places %>
+
 
 </body>
 </html>
