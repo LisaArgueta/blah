@@ -5,7 +5,12 @@ Nomster::Application.routes.draw do
 
   resources :places do
     resources :comments, only: :create
+    resources :photos, only: [:index, :new, :create, :destroy]
   end
+
+  <%= form.file_field :avatars, multiple: true %>
+
+
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
