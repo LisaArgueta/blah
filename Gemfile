@@ -7,7 +7,8 @@ gem 'simple_form'
 gem 'devise', '>= 3.2.4'
 gem 'geocoder'
 gem 'figaro', '>= 1.0.0'
-gem 'carrierwave','>= 0.11.0'
+gem 'carrierwave'
+gem 'mini_magick'
 
 # Gemfile for Rails 3+, Sinatra, and Merb
 gem 'will_paginate', '~> 3.1.0'
