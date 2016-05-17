@@ -57,8 +57,8 @@
 
   <div class="photo">
     <% @place.photos.each do |photo| %>
-      <%= image_tag photo.picture %>
-      <%= photo.caption %>
+    <%= image_tag photo.picture, class: 'img-responsive' %>
+    <%= photo.caption %>
     <% end %>
   </div>
 </div>
