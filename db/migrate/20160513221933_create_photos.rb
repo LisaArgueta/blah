@@ -7,5 +7,7 @@ class CreatePhotos < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+
+    add_index :photos, :place_id
   end
 end
