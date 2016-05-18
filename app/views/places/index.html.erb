@@ -22,11 +22,10 @@
         </blockquote>
         </div>
       <% end %>
+  
+  <% image_tag(place.photos.last.picture, :class => "img-responsive") %>
+
   </div>
-
-image_tag(place.photos.last.picture, :class => "img-responsive")
-
-
 
 
 <% end %>
