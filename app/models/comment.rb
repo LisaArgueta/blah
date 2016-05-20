@@ -5,10 +5,10 @@ class Comment < ActiveRecord::Base
 
   RATINGS = {
     'one star'    => '1_star',
-    'two star'    => '2_stars',
-    'three star'  => '3_stars',
-    'four star'   => '4_stars',
-    'five star'   => '5_stars'
+    'two stars'    => '2_stars',
+    'three stars'  => '3_stars',
+    'four stars'   => '4_stars',
+    'five stars'   => '5_stars'
   }
 
   def humanized_rating
